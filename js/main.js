@@ -309,7 +309,7 @@ function renderCartItems() {
   const msg = encodeURIComponent(
     `¡Hola Patitas Suaves! 🐾 Quiero hacer el siguiente pedido:\n\n${lines.join("\n")}\n\nTotal: ${fmt(total)}\n\n¿Cómo lo coordinamos?`
   );
-  document.getElementById("cartWhatsapp").href = `https://wa.me/5491100000000?text=${msg}`;
+  document.getElementById("cartWhatsapp").href = `https://wa.me/5492304555785?text=${msg}`;
 }
 
 function initCart() {
