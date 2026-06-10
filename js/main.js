@@ -8,8 +8,9 @@ const PRODUCTOS = [
   {
     id: 1,
     nombre: "Arnés chaleco con correa",
-    desc: "Talle S, M o L · Varios colores · Para perros y gatos",
+    desc: "Regulable· Varios colores · Para perros y gatos",
     precio: 9500,
+    img: 'https://acdn-us.mitiendanube.com/stores/006/154/579/products/whatsapp-image-2025-11-28-at-8-55-20-am-photoroom-5786e3e338ca8bfa0817643345512445-1024-1024.webp',
     emoji: "🦺",
     categoria: "paseo",
     badge: "Más vendido",
