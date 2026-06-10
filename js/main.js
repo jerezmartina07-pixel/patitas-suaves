@@ -174,7 +174,13 @@ function renderProductos() {
 
     card.innerHTML = `
       <div class="product-img">
-        <span>${p.emoji}</span>
+      <div class="product-img">
+       ${p.img
+         ? `<img src="${p.img}" alt="${p.nombre}"
+               style="width:100%;height:100%;object-fit:cover;
+                      position:absolute;inset:0;">`
+         : `<span>${p.emoji}</span>`
+       }
         ${p.badge ? `<span class="product-badge">${p.badge}</span>` : ""}
       </div>
       <div class="product-info">
